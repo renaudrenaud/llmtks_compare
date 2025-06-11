@@ -6,6 +6,8 @@ We want to compare different solutions available on the market in June 2025 to g
 
 Alex published a [video on june 2025](https://www.youtube.com/watch?v=B7GDr-VFuEo) about the Gmktec Evo X2. Let's compare his results with an old NVIDIA P40 and with some 3 V100 Intel computer.
 
+---
+
 ## Hardware Description
 
 ### NVIDIA P40
@@ -39,14 +41,40 @@ renaud@GMK8p:~$ neofetch
              /////////////
 ```
 
+---
+
+### NVidia V100 on Xeon E5-2697 v4
+
+```
+neofetch
+       _,met$$$$$gg.          renaud@nice_company 
+    ,g$$$$$$$$$$$$$$$P.       ------------ 
+  ,g$$P"     """Y$$.".        OS: Debian GNU/Linux 12 (bookworm) x86_64 
+ ,$$P'              `$$$.     Host: PIO-628U-TR4T+-ST031 0123456789 
+',$$P       ,ggs.     `$$b:   Kernel: 6.1.0-28-amd64 
+`d$$'     ,$P"'   .    $$$    Uptime: 1 day, 17 hours, 24 mins 
+ $$P      d$'     ,    $$P    Packages: 737 (dpkg) 
+ $$:      $$.   -    ,d$$'    Shell: bash 5.2.15 
+ $$;      Y$b._   _,d$P'      Resolution: 1024x768 
+ Y$$.    `.`"Y$$$$P"'         Terminal: /dev/pts/0 
+ `$$b      "-.__              CPU: Intel Xeon E5-2697 v4 (72) @ 3.600GHz 
+  `Y$$                        GPU: NVIDIA Tesla V100 PCIe 16GB 
+   `Y$$.                      GPU: NVIDIA Tesla V100 PCIe 16GB 
+     `$$b.                    GPU: NVIDIA Tesla V100 PCIe 16GB 
+       `Y$$b.                 Memory: 4873MiB / 257804MiB 
+          `"Y$b._
+              `"""                                    
+```
+
+---
 
 ### GMKTec EVO2
 
 A high-end ~€2000 mini-PC. Reviewed here: [YouTube](https://www.youtube.com/watch?v=B7GDr-VFuEo)
 
-### Macs
+---
 
-(To be filled in with benchmarks.)
+
 
 ## Results
 
